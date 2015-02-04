@@ -4,7 +4,7 @@ Adjust is a basic module that adds in simple polyfills for
     :maxHeight
     :minHeight
 
-Simply include the lib file adjust into your lib folder and specify your alloy templates to be use adjust
+Simply include the lib file adjust and specify your alloy templates to be use module="adjust"
 
 ````
 <Label module="adjust" id="title" maxHeight="40" />
