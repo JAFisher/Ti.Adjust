@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container">
+		<!-- Massive paragraph! -->
+		<ScrollView layout="vertical" class="padding30">
+			<Label top="50" class="h1">Ti.Adjust.</Label>
+			<Label top="10" module="adjust" maxHeight="60" >Erat diam phasellus sed vehicula eu ante, integer maecenas risus sed, aliquam felis magna in. Est phasellus blandit est dolor. Maecenas elit porta aliquam vestibulum, diam vestibulum neque. Nec ante mi quisque iure ornare augue, libero cum quam justo erat vitae in, vitae lacus. Rutrum vel sit leo leo erat, ultrices wisi, viverra risus, consequat tellus nam nam sapien, nec et porta ante. Erat suspendisse, mollis ut, vel urna odio phasellus nec, aliquam leo id voluptatem in, vitae justo amet non a dolor. Arcu ac cursus accumsan mi augue pulvinar. Ut in aliquam, dis blandit sed tempus ligula, fermentum purus cursus pede nibh. In netus id vel fugiat, ut rutrum ac auctor, mauris in donec massa fames vitae felis, amet risus nulla, sit parturient adipiscing. Aliquet purus tellus. Lorem lorem vel pellentesque, blandit adipiscing ante nullam at convallis dictum, vitae luctus vulputate urna aut integer.</Label>
+			<View top="10" backgroundColor="blue" height="Ti.UI.SIZE" maxHeight="50"  module="adjust">
+				<Label height="400" />
+			</View>
+			<View top="10" backgroundColor="orange" height="Ti.UI.SIZE" minHeight="50"  module="adjust">
+				<Label height="20" />
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>
